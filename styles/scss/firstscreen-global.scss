@@ -1,0 +1,17 @@
+@import "variables";
+
+.top-bar {
+  background-color: #0a0a0a;
+  color: $firstscreen-yellow;
+
+  ul {
+    background-color: #0a0a0a;
+
+    li {
+
+      a {
+        color: $firstscreen-yellow;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+/*
+@font-face {
+  font-family: "Adlery";
+  src: url('../../fonts/Adlery_TRIAL.ttf') format('truetype')
+}
+*/
+.top-bar {
+  background-color: #0a0a0a;
+  color: #e5c309;
+}
+.top-bar ul {
+  background-color: #0a0a0a;
+}
+.top-bar ul li a {
+  color: #e5c309;
+}
+
+/*# sourceMappingURL=firstscreen-global.css.map */
