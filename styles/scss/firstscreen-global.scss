@@ -1,17 +1,44 @@
 @import "variables";
 
-.top-bar {
-  background-color: #0a0a0a;
-  color: $firstscreen-yellow;
+body {
+  background: #f5eff0;
+}
 
-  ul {
-    background-color: #0a0a0a;
+.yellow {
+  color: $firstscreen-yellow !important;
+}
 
-    li {
+.navbar-dark {
+  background-color: #27292b;
+}
 
-      a {
-        color: $firstscreen-yellow;
-      }
-    }
+.cinerama {
+  font-family: Cinerama !important;
+}
+
+.underline-yellow {
+  border-bottom: 1px inset #e5c309;
+}
+
+.container {
+  padding: 15px 25px;
+  background: #f0f0f0 !important;
+  color: #1d2129;
+}
+
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+
+  @media (max-width: 767.98px) {
+    color: $firstscreen-yellow;
+  }
+
+  @media (min-width: 576px) {
+    border-bottom: 1px inset $firstscreen-yellow;
   }
 }
+
+

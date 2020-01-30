@@ -1,18 +1,48 @@
-/*
 @font-face {
-  font-family: "Adlery";
-  src: url('../../fonts/Adlery_TRIAL.ttf') format('truetype')
+  font-family: "Cinerama";
+  src: url("../../fonts/Cinerama.otf") format("truetype");
 }
-*/
-.top-bar {
-  background-color: #0a0a0a;
-  color: #e5c309;
+body {
+  background: #f5eff0;
 }
-.top-bar ul {
-  background-color: #0a0a0a;
+
+.yellow {
+  color: #e5c309 !important;
 }
-.top-bar ul li a {
-  color: #e5c309;
+
+.navbar-dark {
+  background-color: #27292b;
+}
+
+.cinerama {
+  font-family: Cinerama !important;
+}
+
+.underline-yellow {
+  border-bottom: 1px inset #e5c309;
+}
+
+.container {
+  padding: 15px 25px;
+  background: #f0f0f0 !important;
+  color: #1d2129;
+}
+
+@media (max-width: 767.98px) {
+  .navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: #e5c309;
+  }
+}
+@media (min-width: 576px) {
+  .navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+    border-bottom: 1px inset #e5c309;
+  }
 }
 
 /*# sourceMappingURL=firstscreen-global.css.map */
