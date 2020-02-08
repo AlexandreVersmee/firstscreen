@@ -12,24 +12,22 @@
 <body>
 <?php include './partials/header.html' ?>
 
-<div id="carouselWelcome" class="carousel slide mb-5" data-ride="carouselWelcome">
+<div id="carouselWelcome" class="carousel slide mb-5" data-ride="carouselWelcome" data-interval="false">
 	<ol class="carousel-indicators">
 		<li data-target="#carouselWelcome" data-slide-to="0" class="active"></li>
 		<li data-target="#carouselWelcome" data-slide-to="1"></li>
-		<li data-target="#carouselWelcome" data-slide-to="2"></li>
 	</ol>
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img src="./images/test.jpg" alt="">
+			<div class="carousel-video-inner">
+				<div id="video-player" data-video-id="l8toYz6-REE"></div>
+			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="./images/test.jpg" alt="">
-		</div>
-		<div class="carousel-item">
-			<img src="./images/test.jpg" alt="">
+			<img src="images/firstSreen-Bandeau-accueil.jpg" alt="FirstScreen">
 		</div>
 	</div>
-	<a class="carousel-control-prev" href="#carouselWelcome" role="button" data-slide="prev">
+	<a class=" carousel-control-prev" href="#carouselWelcome" role="button" data-slide="prev">
 		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		<span class="sr-only">Previous</span>
 	</a>
@@ -40,26 +38,26 @@
 </div>
 
 
-<div class="container rubrique shadow">
+<div class="container rubrique shadow mb-5">
 	<div class="row">
 		<div class="col-lg-4">
-			<img src="./images/mariage/thumbnail.jpg" class="img-fluid" alt="">
+			<img src="images/mariage/thumbnail-mariage-firstScreen.jpg" class="img-fluid" alt="">
 			<h2 class="mt-2 mb-3 text-center">Mariage</h2>
 			<p>Le film de mariage est souvent pensé comme un bonus et une extension aux photos. Cependant, la ou les photos figent pour l’éternité, la vidéo est une
 				histoire du temps, celui de ce jour unique. Captée ces moments et raconté votre histoire c’est un métier, le nôtre.</p>
-			<p><a class="float-right" href="#" role="button">En savoir plus »</a></p>
+			<p><a class="float-right" href="mariage-firstscreen.php" role="button">En savoir plus »</a></p>
 		</div><!-- /.col-lg-4 -->
 		<div class="col-lg-4">
-			<img src="./images/films_dentreprises/thumbnail.jpg" class="img-fluid" alt="">
+			<img src="images/films_dentreprises/thumbnail-film-entreprises-firstScreen.jpg" class="img-fluid" alt="">
 			<h2 class="mt-2 mb-3 text-center">Films d'entreprises</h2>
 			<p>Des images au services de votre identité et une histoire orignal et forte pour accrocher votre spectateur. C’est notre credo !</p>
-			<p><a class="float-right" href="#" role="button"> En savoir plus »</a></p>
+			<p><a class="float-right" href="films-entreprise-firstscreen.php" role="button"> En savoir plus »</a></p>
 		</div><!-- /.col-lg-4 -->
 		<div class="col-lg-4">
-			<img src="./images/films_artistiques/thumbnail.jpg" class="img-fluid" alt="">
+			<img src="images/films_artistiques/thumbnail-film-artistique-firstScreen.jpg" class="img-fluid" alt="">
 			<h2 class="mt-2 mb-3 text-center">Films artistique</h2>
 			<p>S’exprimer au travers de l’écran par du clip ou des courts-métrages.</p>
-			<p><a class=" float-right" href="#" role="button"> En savoir plus »</a></p>
+			<p><a class=" float-right" href="films-artistiques-firstscreen.php" role="button"> En savoir plus »</a></p>
 		</div><!-- /.col-lg-4 -->
 	</div>
 </div>
@@ -109,6 +107,8 @@
 		</div>
 	</div>
 </div>
+
+
 <!--
 <div class="container-fluid ">
 	<div class="row justify-content-center">
@@ -151,6 +151,7 @@
 <!-- FOOTER -->
 <?php include './partials/footer.html' ?>
 <?php include './partials/scripts.html' ?>
+<script src="./js/youtube-slider.js"></script>
 </body>
 </html>
 

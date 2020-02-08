@@ -13,34 +13,24 @@
 <?php include './partials/header.html' ?>
 
 
-<div class="container shadow mt-4">
+<!--<div class="container shadow mt-4">
 	<h2 class="mb-5 text-center"><span class="underline-yellow">Tarifications Films Artistiques</span></h2>
 </div>
 
-
+-->
 <div class="container shadow mt-3">
+
 	<h2 class="mb-5 text-center"><span class="underline-yellow">Mes réalisations</span></h2>
-	<div class="row mb-3">
+
+	<div class="row mb-3 realisation">
 
 		<div class="col-md-6 ">
-			<iframe class="video-youtube" src="https://www.youtube.com/embed/UopFt-o3xVc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-			picture-in-picture" allowfullscreen></iframe>
+			<iframe src="https://www.youtube.com/embed/L-eufs6-MVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
 		</div>
-		<div class="col-md-6">
-			<iframe class="video-youtube" src="https://www.youtube.com/embed/G9D-twOHgrU" frameborder="0"
-					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
+
 	</div>
-	<div class="row">
-		<div class="col-md-6 ">
-			<iframe class="video-youtube" src="https://www.youtube.com/embed/ivjZPzq16jU" frameborder="0"
-					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
-		<div class="col-md-6">
-			<iframe class="video-youtube" src="https://www.youtube.com/embed/cXebTaDO2iY" frameborder="0"
-					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
-	</div>
+
 </div>
 
 

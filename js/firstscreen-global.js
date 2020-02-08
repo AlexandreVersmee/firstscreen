@@ -6,16 +6,17 @@ $(function() {
         .split("/")[1] + '"]').parent('li')
         .addClass('active');
 });
+/*
 
 
 $('#carouselPartners').on('slide.bs.carousel', function (e) {
 
-    /*
+    /!*
 
     CC 2.0 License Iatek LLC 2018
     Attribution required
 
-    */
+    *!/
 
     var $e = $(e.relatedTarget);
 
@@ -36,4 +37,4 @@ $('#carouselPartners').on('slide.bs.carousel', function (e) {
             }
         }
     }
-});
+});*/
