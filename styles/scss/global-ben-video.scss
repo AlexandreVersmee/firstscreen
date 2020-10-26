@@ -1,0 +1,97 @@
+@import "variables";
+
+.cinerama {
+  font-family: Cinerama !important;
+  font-size: 3rem;
+}
+
+.lovely {
+  font-family: Lovely !important;
+  font-size: 3rem;
+}
+
+.thundergood {
+  font-family: Thundergood !important;
+  font-size: 3rem;
+}
+
+.itcedscr {
+  font-family: ITCEDSCR !important;
+  font-size: 3rem;
+}
+
+.edosz {
+  font-family: edosz !important;
+  font-size: 2rem;
+}
+
+.gobold {
+  font-family: gobold !important;
+  font-size: 2rem;
+}
+
+body {
+  background: #fff;
+}
+
+.yellow {
+  color: $firstscreen-yellow !important;
+}
+
+nav {
+
+
+  a {
+    :hover {
+
+    }
+
+    color: black;
+  }
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.underline-yellow {
+  border-bottom: 1px inset #e5c309;
+}
+
+.container {
+  padding: 15px 25px;
+  background: #f8f8f8 !important;
+  color: #1d2129;
+}
+
+.background-white {
+  background: #f0f0f0 !important;
+}
+
+.realisation {
+  iframe {
+    width: 100%;
+    height: 315px;
+  }
+}
+
+//Small
+@media (max-width: 767.98px)  {
+  #logo-header {
+    margin-bottom: 25px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin: auto;
+  }
+
+  #logo-header {
+    height: 250px;
+    border-bottom: solid black 4px;
+  }
+}
+
+

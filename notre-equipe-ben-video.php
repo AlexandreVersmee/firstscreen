@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>FirstScreen</title>
+    <title>Ben</title>
 
     <?php include './partials/metas.html' ?>
     <?php include './partials/styles.html' ?>

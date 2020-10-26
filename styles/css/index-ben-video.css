@@ -11,6 +11,21 @@
   height: 475px;
 }
 
+.photo-ben {
+  border-radius: 6.5rem;
+  box-shadow: 10px 5px 5px #d8d3d3;
+  max-width: 100%;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+  line-height: 2.5rem;
+}
+.jumbotron .card {
+  background-color: transparent;
+  border: none;
+}
+
 /*
 
 @media (min-width: 768px) {
@@ -78,4 +93,4 @@
   }
 }*/
 
-/*# sourceMappingURL=firstscreen-index.css.map */
+/*# sourceMappingURL=index-ben-video.css.map */
