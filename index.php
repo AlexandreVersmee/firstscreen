@@ -66,6 +66,7 @@
 									<i class="fas fa-phone-square"></i> 06 64 83 34 41<br />
 									<i class="far fa-envelope"></i> benjaminversmee@gmail.com<br />
 									<i class="fab fa-instagram"></i> www.instagram.com/versmeebenjamin
+									<i class="fab fa-facebook"></i> https://www.facebook.com/TiltnCraft
 								</p>
 							</div>
 						</div>
