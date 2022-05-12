@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>Ben</title>
+	<title>TiltnCraft</title>
 
     <?php include './partials/metas.html' ?>
     <?php include './partials/styles.html' ?>
@@ -47,8 +47,8 @@
 
 
 			<div class="jumbotron">
-				<h1 class="display-4">Salut c’est <span class="edosz">Ben</span>,</h1>
-				<p class="lead">Bienvenue sur mon site professionnel, ici vous retrouvez une partie de mes créations et des informations sur mes services.<br />
+				<p class="lead">
+				Salut c’est Ben,</br>Bienvenue sur mon site professionnel, ici vous retrouvez une partie de mes créations et des informations sur mes services.<br />
 					J’ai toujours rêvé de faire un métier qui me passionne, l’audiovisuel c’est un véritable choc pour moi, l’occasion de pouvoir écrire en image et de
 					raconter des histoires, de faire réagir les gens, d’être heureux.<br />
 					Le chemin est semé d'embûches mais c’est avec le sourire et la détermination que je vous invite à me rejoindre ou me proposer un projet.<br />
