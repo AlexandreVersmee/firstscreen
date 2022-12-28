@@ -2,9 +2,13 @@
 /*$('.nav-item .active a').append('<i class="fas fa-video yellow"></i>');*/
 
 $(function() {
-    $('.nav-item a[href^="' + location.pathname
-        .split("/")[1] + '"]').parent('li')
-        .addClass('active');
+    let test = window.location.href
+    let page  = test.split('/')[3]
+    if (page === "index.php"){
+        $("a.index").addClass('active')
+    }else{
+        $("a[href$='"+page+"']").addClass('active')
+    }
 });
 /*
 

@@ -1,0 +1,88 @@
+Aug  3 19:03:31 10.71.56.0 u108310186 Connection from 10.71.56.0 port 59556 on 82.165.88.225 port 22
+Aug  3 19:03:31 10.71.56.0 u108310186 Accepted password for u108310186 from 10.71.56.0 port 59556 ssh2
+Aug  3 19:03:31 10.71.56.0 u108310186 Starting session: subsystem 'sftp' for u108310186 from 10.71.56.0 port 59556 id 0
+Aug  3 19:03:31 10.71.56.0 u108310186 session opened for local user u108310186 from [10.71.56.0]
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/traffic.html/06.html" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/traffic.html/05.html" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/traffic.html/.htaccess" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/traffic.html/.md5sums" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 sent status Permission denied
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/traffic.html/index.html" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 Starting session: subsystem 'sftp' for u108310186 from 10.71.56.0 port 59556 id 1
+Aug  3 19:06:34 10.71.56.0 u108310186 session opened for local user u108310186 from [10.71.56.0]
+Aug  3 19:06:34 10.71.56.0 u108310186 session closed for local user u108310186 from [10.71.56.0]
+Aug  3 19:06:34 10.71.56.0 u108310186 Starting session: subsystem 'sftp' for u108310186 from 10.71.56.0 port 59556 id 0
+Aug  3 19:06:34 10.71.56.0 u108310186 session opened for local user u108310186 from [10.71.56.0]
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/traffic.html/08.html" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 forced close "//logs/traffic.html/08.html" bytes read 0 written 0
+Aug  3 19:06:34 10.71.56.0 u108310186 [10.71.56.0|get|0|0|0|0|0|2f2f6c6f67732f747261666669632e68746d6c2f30382e68746d6c|]
+Aug  3 19:06:34 10.71.56.0 u108310186 session closed for local user u108310186 from [10.71.56.0]
+Aug  3 19:06:34 10.71.56.0 u108310186 Starting session: subsystem 'sftp' for u108310186 from 10.71.56.0 port 59556 id 1
+Aug  3 19:06:34 10.71.56.0 u108310186 session opened for local user u108310186 from [10.71.56.0]
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/info.php5" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/info.py" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/last_traffic" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/traffic.db" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/access.log.29.gz" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 close "//logs/last_traffic" bytes read 0 written 0
+Aug  3 19:06:34 10.71.56.0 u108310186 [10.71.56.0|get|0|0|0|0|0|2f2f6c6f67732f6c6173745f74726166666963|]
+Aug  3 19:06:34 10.71.56.0 u108310186 close "//logs/info.php5" bytes read 21 written 0
+Aug  3 19:06:34 10.71.56.0 u108310186 [10.71.56.0|get|0|21|0|0|0|2f2f6c6f67732f696e666f2e70687035|]
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/access.log.23.gz" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 close "//logs/info.py" bytes read 6384 written 0
+Aug  3 19:06:34 10.71.56.0 u108310186 [10.71.56.0|get|0|6384|0|0|0|2f2f6c6f67732f696e666f2e7079|]
+Aug  3 19:06:34 10.71.56.0 u108310186 close "//logs/traffic.db" bytes read 12288 written 0
+Aug  3 19:06:34 10.71.56.0 u108310186 [10.71.56.0|get|0|12288|0|0|0|2f2f6c6f67732f747261666669632e6462|]
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/access.log.30.2.gz" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/access.log.26.gz" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/access.log.30.6.gz" flags READ mode 0666
+Aug  3 19:06:34 10.71.56.0 u108310186 close "//logs/access.log.29.gz" bytes read 4688 written 0
+Aug  3 19:06:34 10.71.56.0 u108310186 [10.71.56.0|get|0|4688|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e32392e677a|]
+Aug  3 19:06:34 10.71.56.0 u108310186 open "//logs/access.log.27.gz" flags READ mode 0666
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.23.gz" bytes read 2151 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|1|2151|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e32332e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.30.2.gz" bytes read 1235 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|1|1235|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e33302e322e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.26.gz" bytes read 2611 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|1|2611|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e32362e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.30.6.gz" bytes read 667 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|1|667|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e33302e362e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 open "//logs/access.log.25.gz" flags READ mode 0666
+Aug  3 19:06:35 10.71.56.0 u108310186 open "//logs/access.log.30.5.gz" flags READ mode 0666
+Aug  3 19:06:35 10.71.56.0 u108310186 open "//logs/access.log.28.gz" flags READ mode 0666
+Aug  3 19:06:35 10.71.56.0 u108310186 open "//logs/access.log.24.gz" flags READ mode 0666
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.27.gz" bytes read 2907 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|1|2907|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e32372e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 open "//logs/access.log.30.1.gz" flags READ mode 0666
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.25.gz" bytes read 1914 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|0|1914|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e32352e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.30.5.gz" bytes read 845 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|0|845|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e33302e352e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.28.gz" bytes read 3481 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|0|3481|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e32382e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.24.gz" bytes read 2537 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|0|2537|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e32342e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 open "//logs/access.log.30.4.gz" flags READ mode 0666
+Aug  3 19:06:35 10.71.56.0 u108310186 open "//logs/access.log.30.3.gz" flags READ mode 0666
+Aug  3 19:06:35 10.71.56.0 u108310186 open "//logs/access.log.30.7.gz" flags READ mode 0666
+Aug  3 19:06:35 10.71.56.0 u108310186 open "//logs/access.log.31.1.gz" flags READ mode 0666
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.30.1.gz" bytes read 810 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|0|810|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e33302e312e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 open "//logs/access.log.31.2.gz" flags READ mode 0666
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.30.4.gz" bytes read 753 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|0|753|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e33302e342e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.30.3.gz" bytes read 1009 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|0|1009|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e33302e332e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.30.7.gz" bytes read 710 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|0|710|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e33302e372e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 open "//logs/access.log.current" flags READ mode 0666
+Aug  3 19:06:35 10.71.56.0 u108310186 open "//logs/access.log.31.3" flags READ mode 0666
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.31.1.gz" bytes read 1069 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|0|1069|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e33312e312e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 open "//logs/sftp.log" flags READ mode 0666
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.31.2.gz" bytes read 767 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|0|767|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e33312e322e677a|]
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.31.3" bytes read 16145 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|0|16145|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e33312e33|]
+Aug  3 19:06:35 10.71.56.0 u108310186 close "//logs/access.log.current" bytes read 16145 written 0
+Aug  3 19:06:35 10.71.56.0 u108310186 [10.71.56.0|get|0|16145|0|0|0|2f2f6c6f67732f6163636573732e6c6f672e63757272656e74|]

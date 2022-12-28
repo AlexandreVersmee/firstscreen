@@ -22,6 +22,7 @@
   font-family: "gobold";
   src: url("../../fonts/Gobold_Hollow.otf") format("truetype");
 }
+
 .cinerama {
   font-family: Cinerama !important;
   font-size: 3rem;
@@ -53,22 +54,14 @@
 }
 
 body {
-  background: #fff;
-}
-
-.yellow {
-  color: #e5c309 !important;
+  background: #f7f7f7;
 }
 
 nav a {
-  color: black;
+  color: black !important;
 }
 .underline {
   text-decoration: underline;
-}
-
-.underline-yellow {
-  border-bottom: 1px inset #e5c309;
 }
 
 .container {
@@ -85,11 +78,14 @@ nav a {
   width: 100%;
   height: 315px;
 }
+nav .active{
+  border-bottom: 1px solid #ca3535;
+}
 
 @media (max-width: 767.98px) {
   #logo-header {
     margin-bottom: 25px;
-    height: 200px;
+    height: 100px;
   }
 }
 @media (min-width: 768px) {
@@ -98,7 +94,7 @@ nav a {
   }
 
   #logo-header {
-    height: 250px;
+    height: 150px;
   }
 }
 
